@@ -1,9 +1,11 @@
 # REACT-NEWS-APP
-Simple React News App with Login (Javascript)
+Simple News App with Login (Javascript)
 
 # folders
 
-  - news-js: app with react
+  - news-js: app javascript
+      - client: front-end with vite/react
+      - server: back-end with express
 
 # css
 
