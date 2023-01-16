@@ -9,3 +9,6 @@ Simple React News App with Login (Javascript)
 
   - TailwindCss
 
+# database
+
+  - MySql
