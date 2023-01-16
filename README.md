@@ -1,4 +1,4 @@
-# react-news-app
+# REACT-NEWS-APP
 Simple React News App with Login (Javascript)
 
 # folders
