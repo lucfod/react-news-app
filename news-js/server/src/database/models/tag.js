@@ -25,6 +25,7 @@ export class Tag extends BaseEntity {
   @ManyToOne(() => Post, (post) => post.tags)
   @JoinColumn({
     name: "post_id",
+    nullable: false,
     referencedColumnName: "id",
     foreignKeyConstraintName: "fk_tags_post_id",
   })

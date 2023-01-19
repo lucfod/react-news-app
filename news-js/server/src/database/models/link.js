@@ -28,6 +28,7 @@ export class Link extends BaseEntity {
   @ManyToOne(() => Post, (post) => post.links)
   @JoinColumn({
     name: "post_id",
+    nullable: false,
     referencedColumnName: "id",
     foreignKeyConstraintName: "fk_links_post_id",
   })
